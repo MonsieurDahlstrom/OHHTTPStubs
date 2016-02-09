@@ -105,6 +105,8 @@
 		725CD9BB1A9EB71A00F84C8B /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 09110A721980606A00D175E4 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		725CD9BC1A9EB71D00F84C8B /* OHHTTPStubsResponse+HTTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09110A701980606A00D175E4 /* OHHTTPStubsResponse+HTTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B812F8D5510F916B78E671A /* libPods-OHHTTPStubs iOS Lib Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA846B11753DE97A1D563D0 /* libPods-OHHTTPStubs iOS Lib Tests.a */; };
+		B8C5B0E01C6A092F008BB35A /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955699A1B90E4EA00503ADC /* OHHTTPStubsSwift.swift */; };
+		B8C5B0E11C6A095A008BB35A /* SwiftHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095925D51BAEC00200DD7F0B /* SwiftHelpersTests.swift */; };
 		EA100ABC1BE15BE400129352 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA436A51BE1598D000E9E99 /* OHHTTPStubs.framework */; };
 		EA9D27231BE15C740078CAA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9D27221BE15C740078CAA0 /* Foundation.framework */; };
 		EA9D27241BE15CA00078CAA0 /* empty.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 221C34A61B0CCF9D00FCA8FF /* empty.bundle */; };
@@ -1100,6 +1102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C5B0E01C6A092F008BB35A /* OHHTTPStubsSwift.swift in Sources */,
 				095981F619806AAC00807DBE /* OHHTTPStubs.m in Sources */,
 				095981FA19806AAC00807DBE /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */,
 				094906D81B7F520200B047DA /* OHHTTPStubs+Mocktail.m in Sources */,
@@ -1114,6 +1117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C5B0E11C6A095A008BB35A /* SwiftHelpersTests.swift in Sources */,
 				095981F119806AA200807DBE /* NSURLConnectionTests.m in Sources */,
 				094906D61B7F4D7100B047DA /* MocktailTests.m in Sources */,
 				095981F319806AA200807DBE /* TimingTests.m in Sources */,
@@ -1415,7 +1419,7 @@
 				);
 				INFOPLIST_FILE = "Supporting Files/OHHTTPStubs Mac-Info.plist";
 				INSTALL_PATH = "@rpath";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
@@ -1439,7 +1443,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				INFOPLIST_FILE = "Supporting Files/OHHTTPStubs Mac-Info.plist";
 				INSTALL_PATH = "@rpath";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
